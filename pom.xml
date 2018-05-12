@@ -20,6 +20,13 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.approvaltests</groupId>
+            <artifactId>Approvals</artifactId>
+            <version>0.20</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/ApprovalTests.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
