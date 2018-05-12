@@ -44,7 +44,7 @@ public class GildedRoseTest {
         }
 
         for (int i = 0; i < days; i++) {
-            output.append("-------- day " + i + " --------").append("\r");
+            output.append("-------- day ").append(i).append(" --------").append("\r");
             output.append("name, sellIn, quality").append("\r");
             for (Item item : items) {
                 output.append(item).append("\r");
