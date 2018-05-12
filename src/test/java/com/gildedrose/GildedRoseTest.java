@@ -18,7 +18,7 @@ public class GildedRoseTest {
 
     @Test
     public void goldenMasterTest() {
-        String [] args = {};
+        String [] args = {"10"};
         Approvals.verify(stringRepresentationOfRun(args));
     }
 
